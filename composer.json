@@ -1,0 +1,21 @@
+{
+	"name": "sy/cookieconsent",
+	"description": "Cookie consent web component",
+	"type": "library",
+	"require": {
+		"php": ">=5.6.0",
+		"sy/html": "^1"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Syone",
+			"email": "syone7@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Sy\\Component\\Web\\": "src/"
+		}
+	}
+}
