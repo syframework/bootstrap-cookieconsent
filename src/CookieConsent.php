@@ -17,11 +17,9 @@ class CookieConsent extends WebComponent {
 			$this->setBackgroundColor('#252e39');
 			$this->setButtonBackgroundColor('#14a7d0');
 		}
-	}
-
-	public function __toString() {
-		$this->init();
-		return parent::__toString();
+		$this->mount(function () {
+			$this->init();
+		});
 	}
 
 	/**
